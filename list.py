@@ -148,3 +148,4 @@ if st.button("✨ 영양 맞춤 일주일 급식표 생성하기", type="primary
             st.error("🚨 AI가 생성한 데이터 형식이 올바르지 않습니다. 다시 한 번 버튼을 눌러주세요.")
         except Exception as e:
             st.error(f"🚨 오류가 발생했습니다: {str(e)}\nAPI 키 설정이나 네트워크 상태를 확인해 주세요.")
+        
